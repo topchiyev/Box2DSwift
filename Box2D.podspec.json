@@ -1,0 +1,20 @@
+{
+  "name": "Box2DSwift",
+  "license": {
+    "type": "zlib"
+  },
+  "version": "2.3.1",
+  "summary": "Box2D is an open source C++ engine for simulating rigid bodies in 2D.",
+  "description": "Box2D is an open source C++ engine for simulating rigid bodies in 2D. Box2D is developed by Erin Catto and has the zlib license. While the zlib license does not require acknowledgement, we encourage you to give credit to Box2D in your product.",
+  "homepage": "http://box2d.org/",
+  "authors": "Erin Catto",
+  "source": {
+    "git": "http://github.com/topchiyev/Box2DSwift",
+    "tag": "v2.3.1"
+  },
+  "source_files": "Box2D/**/*.{swift}",
+  "requires_arc": true,
+  "pod_target_xcconfig": {
+     "SWIFT_VERSION": "2.3"
+  }
+}
